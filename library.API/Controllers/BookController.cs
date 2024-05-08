@@ -16,6 +16,7 @@ public class BookController
     [HttpGet]
     public async Task<ApiResponse<GetBookResponse>> Get(GetBookRequest request) {
         return await _mediator.Send(new GetBookQuery(request));
+        
     }
    
 }
