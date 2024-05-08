@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "fXhOW6XDuqJUjhelOzzosPwuRZhVV3YiTGkT8FcXV/7SYmC1YfRiZeJWXifaFmBt9v7UM/Q78zlDLfjih7eUtA==",
-  "success": false,
+  "dgSpecHash": "2eiGciRPkvMlpWFdOhy0j7W1/ut+QQPc+kH92Xz58pazCwXowW1EFK1L2Eb8eA364t/afehcoArZysEBDRlgqw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Elvin\\Desktop\\library\\library.API\\library.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elvin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -54,15 +54,5 @@
     "C:\\Users\\Elvin\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  library.API -> library.Application -> library.API.",
-      "libraryId": "library.API",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

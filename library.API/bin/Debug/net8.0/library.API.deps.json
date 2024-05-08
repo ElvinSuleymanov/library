@@ -12,7 +12,10 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
           "Swashbuckle.AspNetCore": "6.4.0",
-          "library.Infrastructure": "1.0.0"
+          "library.Application": "1.0.0",
+          "library.Domain": "1.0.0",
+          "library.Infrastructure": "1.0.0",
+          "library.Models": "1.0.0"
         },
         "runtime": {
           "library.API.dll": {}
@@ -559,12 +562,36 @@
         }
       },
       "System.Threading.Channels/6.0.0": {},
+      "library.Application/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.2.0",
+          "library.Models": "1.0.0"
+        },
+        "runtime": {
+          "library.Application.dll": {}
+        }
+      },
+      "library.Domain/1.0.0": {
+        "runtime": {
+          "library.Domain.dll": {}
+        }
+      },
       "library.Infrastructure/1.0.0": {
         "dependencies": {
-          "Pomelo.EntityFrameworkCore.MySql": "8.0.2"
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+          "library.Application": "1.0.0",
+          "library.Domain": "1.0.0"
         },
         "runtime": {
           "library.Infrastructure.dll": {}
+        }
+      },
+      "library.Models/1.0.0": {
+        "dependencies": {
+          "library.Domain": "1.0.0"
+        },
+        "runtime": {
+          "library.Models.dll": {}
         }
       }
     }
@@ -918,7 +945,22 @@
       "path": "system.threading.channels/6.0.0",
       "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
     },
+    "library.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "library.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "library.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "library.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -106,3 +106,10 @@ C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\zh-Hans\Microsoft.Co
 C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Infrastructure.dll
 C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Infrastructure.pdb
+C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Application.dll
+C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Domain.dll
+C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Models.dll
+C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Application.pdb
+C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Models.pdb
+C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Domain.pdb
+C:\Users\Elvin\Desktop\library\library.API\obj\Debug\net8.0\library.API.sourcelink.json

@@ -19,10 +19,10 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\library.Application\library.Application.csproj" />
     <ProjectReference Include="..\library.Infrastructure\library.Infrastructure.csproj" />
     <ProjectReference Include="..\library.Models\library.Models.csproj" />
     <ProjectReference Include="..\library.Domain\library.Domain.csproj" />
-    <ProjectReference Include="..\library.Application\library.Application.csproj" />
   </ItemGroup>
 
 </Project>
