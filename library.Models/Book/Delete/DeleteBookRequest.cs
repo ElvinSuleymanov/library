@@ -2,5 +2,5 @@
 
 public class DeleteBookRequest
 {
-
+    public int BookId { get; set;}
 }

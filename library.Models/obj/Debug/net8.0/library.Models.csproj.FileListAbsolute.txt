@@ -1,0 +1,16 @@
+C:\Users\Elvin\Desktop\library\library.Models\bin\Debug\net8.0\library.Models.deps.json
+C:\Users\Elvin\Desktop\library\library.Models\bin\Debug\net8.0\library.Models.dll
+C:\Users\Elvin\Desktop\library\library.Models\bin\Debug\net8.0\library.Models.pdb
+C:\Users\Elvin\Desktop\library\library.Models\bin\Debug\net8.0\library.Domain.dll
+C:\Users\Elvin\Desktop\library\library.Models\bin\Debug\net8.0\library.Domain.pdb
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.csproj.AssemblyReference.cache
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.AssemblyInfoInputs.cache
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.AssemblyInfo.cs
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.csproj.CoreCompileInputs.cache
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.sourcelink.json
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.csproj.CopyComplete
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.dll
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\refint\library.Models.dll
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\library.Models.pdb
+C:\Users\Elvin\Desktop\library\library.Models\obj\Debug\net8.0\ref\library.Models.dll

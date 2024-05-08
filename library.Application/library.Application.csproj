@@ -12,7 +12,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\library.Models\library.Models.csproj" />
-    <ProjectReference Include="..\library.API\library.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CQRS\Book\Commands\Create\" />
   </ItemGroup>
   
 </Project>

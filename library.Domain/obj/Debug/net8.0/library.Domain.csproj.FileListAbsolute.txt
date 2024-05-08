@@ -1,0 +1,12 @@
+C:\Users\Elvin\Desktop\library\library.Domain\bin\Debug\net8.0\library.Domain.deps.json
+C:\Users\Elvin\Desktop\library\library.Domain\bin\Debug\net8.0\library.Domain.dll
+C:\Users\Elvin\Desktop\library\library.Domain\bin\Debug\net8.0\library.Domain.pdb
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.AssemblyInfoInputs.cache
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.AssemblyInfo.cs
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.sourcelink.json
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.dll
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\refint\library.Domain.dll
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\library.Domain.pdb
+C:\Users\Elvin\Desktop\library\library.Domain\obj\Debug\net8.0\ref\library.Domain.dll

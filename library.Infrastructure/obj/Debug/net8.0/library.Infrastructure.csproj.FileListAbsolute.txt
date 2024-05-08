@@ -12,3 +12,11 @@ C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\refint\li
 C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.pdb
 C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.genruntimeconfig.cache
 C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\ref\library.Infrastructure.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Application.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Domain.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Models.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Domain.pdb
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Application.pdb
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Models.pdb
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.sourcelink.json
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.csproj.CopyComplete

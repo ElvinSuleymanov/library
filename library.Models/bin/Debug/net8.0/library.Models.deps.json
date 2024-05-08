@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "library.Models/1.0.0": {
+        "dependencies": {
+          "library.Domain": "1.0.0"
+        },
+        "runtime": {
+          "library.Models.dll": {}
+        }
+      },
+      "library.Domain/1.0.0": {
+        "runtime": {
+          "library.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "library.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "library.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
