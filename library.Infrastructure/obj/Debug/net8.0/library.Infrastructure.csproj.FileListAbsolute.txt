@@ -1,0 +1,14 @@
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Infrastructure.deps.json
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Infrastructure.runtimeconfig.json
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Infrastructure.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\bin\Debug\net8.0\library.Infrastructure.pdb
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.AssemblyInfo.cs
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\refint\library.Infrastructure.dll
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.pdb
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\library.Infrastructure.genruntimeconfig.cache
+C:\Users\Elvin\Desktop\library\library.Infrastructure\obj\Debug\net8.0\ref\library.Infrastructure.dll
