@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj": {}
+    "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj": {}
   },
   "projects": {
     "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj": {
+    "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj",
+        "projectUniqueName": "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj",
         "projectName": "library.Models",
-        "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj",
+        "projectPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj",
         "packagesPath": "C:\\Users\\Elvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\obj\\",
+        "outputPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Elvin\\AppData\\Roaming\\NuGet\\NuGet.Config",

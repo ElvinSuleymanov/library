@@ -9,8 +9,13 @@ namespace library.Application.Core
         {
             return new ApiResponse<TResponse> { Status = 200, Data = data };
         }
-       
-    }
+       public static ApiResponse<TResponse> Error() {
+            return new ApiResponse<TResponse> { Status = 400};
+       }
+       public static ApiResponse<TResponse> UnAuth() {
+            return new ApiResponse<TResponse> { Status = 401};
+       }
+    }   
 }
 
 

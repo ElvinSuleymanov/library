@@ -5,9 +5,15 @@ using MediatR;
 namespace library.Application;
 
 public class GetTopGenreQueryHandler : IRequestHandler<GetTopGenreQuery, ApiResponse<GetTopGenreResponse>>
+
 {
-    public Task<ApiResponse<GetTopGenreResponse>> Handle(GetTopGenreQuery request, CancellationToken cancellationToken)
+   private ITopGenreService _TopGenreService { get; set;}
+   public GetTopGenreQueryHandler(ITopGenreService TopGenreService)
+   {
+    _TopGenreService = TopGenreService;
+   }
+    public async Task<ApiResponse<GetTopGenreResponse>> Handle(GetTopGenreQuery request, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+       return await _TopGenreService.Get(request.Request);
     }
 }
