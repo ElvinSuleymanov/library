@@ -113,3 +113,11 @@ C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Application.
 C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Models.pdb
 C:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\library.Domain.pdb
 C:\Users\Elvin\Desktop\library\library.API\obj\Debug\net8.0\library.API.sourcelink.json
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\Elvin\Desktop\library\library.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

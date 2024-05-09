@@ -14,6 +14,7 @@ public static class DependencyInjection
         services.AddTransient<IBookService, BookService>();
         services.AddTransient<IGenreService, GenreService>();
         services.AddTransient<ITopGenreService, TopGenreService>(); 
+        services.AddTransient<IAuthorService, AuthorService>();
         return services;
     }
 }

@@ -3,6 +3,7 @@ using library.Application.Core;
 using library.Application.CQRS.Book.Queries;
 using library.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace library.API;
@@ -16,8 +17,9 @@ public class BookController
     {
         _mediator = mediator;
     }
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [HttpGet]
-    public async Task<ApiResponse<GetBookResponse>> Get([FromForm] GetBookRequest request)
+    public async Task<ApiResponse<GetBookResponse>> Get([FromQuery] GetBookRequest request)
     {
         return await _mediator.Send(new GetBookQuery(request));
     }
