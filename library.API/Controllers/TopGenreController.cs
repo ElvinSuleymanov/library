@@ -16,7 +16,7 @@ public class TopGenreController
         _mediator = mediator;
     }
     [HttpGet]
-    public async Task<ApiResponse<GetTopGenreResponse>> Get([FromQuery] GetTopGenreRequest request) {
+    public async Task<ApiResponse<List<GetTopGenreResponse>>> Get([FromQuery] GetTopGenreRequest request) {
       return await _mediator.Send(new GetTopGenreQuery(request));
     }
 }

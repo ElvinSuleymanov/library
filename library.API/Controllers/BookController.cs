@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace library.API;
 
+[Authorize]
 [ApiController]
 [Route("/book")]
 public class BookController
@@ -17,7 +18,6 @@ public class BookController
     {
         _mediator = mediator;
     }
-    [Authorize(AuthenticationSchemes = "Bearer")]
     [HttpGet]
     public async Task<ApiResponse<GetBookResponse>> Get([FromQuery] GetBookRequest request)
     {

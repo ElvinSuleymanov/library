@@ -12,10 +12,9 @@ public class TopGenreService : ITopGenreService
     {
         _context = context;
     }
-    public async Task<ApiResponse<GetTopGenreResponse>> Get(GetTopGenreRequest request)
+    public async Task<ApiResponse<List<GetTopGenreResponse>>> Get(GetTopGenreRequest request)
     {
-        var result = await _context.Genres.Include(c => c.Books).ThenInclude(c => c.Genre).OrderDescending().Take((int)request.Count).ToListAsync();
-        GetTopGenreResponse res = new GetTopGenreResponse {Genres = result};
-        return ApiResponse<GetTopGenreResponse>.Success(res);
-    }
+        var result = await _context.Genres.OrderByDescending(x => x.Books.Count()).Take((int)request.Count).Select(el => new GetTopGenreResponse{Genre = el, BookCount = el.Books.Count()}).ToListAsync();
+        return ApiResponse<List<GetTopGenreResponse>>.Success(result);
+    } 
 }

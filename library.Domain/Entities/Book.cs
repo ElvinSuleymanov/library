@@ -6,4 +6,5 @@ public class Book:Entity
     public int AuthorId { get; set; }
     public  Genre Genre {get; set;}
     public int GenreId { get; set;} 
+    public string BookName { get; set; }
 }

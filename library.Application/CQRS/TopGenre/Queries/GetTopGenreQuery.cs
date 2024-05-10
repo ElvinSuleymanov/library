@@ -4,7 +4,7 @@ using MediatR;
 
 namespace library.Application;
 
-public class GetTopGenreQuery:IRequest<ApiResponse<GetTopGenreResponse>>
+public class GetTopGenreQuery:IRequest<ApiResponse<List<GetTopGenreResponse>>>
 {
     public GetTopGenreRequest Request { get; set; }
     public GetTopGenreQuery(GetTopGenreRequest request)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4TJswn57vI26qwhDKozE0sW9Sgj+GfS1dZdQREm3+YBU5RtFdMoIvqYDuthOQmcw9L/Kq76/OaKpM6x5lFl9EQ==",
+  "dgSpecHash": "t8AuHlTUwOB6dNA2eotZWgG5pQLUtom3AS4IBSXEU8g3Ex5RZ8TPyMnr50Wl0f4kg7bGoAQW0N4TmMeK1kl50A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elvin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

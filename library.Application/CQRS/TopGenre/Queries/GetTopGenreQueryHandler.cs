@@ -4,7 +4,7 @@ using MediatR;
 
 namespace library.Application;
 
-public class GetTopGenreQueryHandler : IRequestHandler<GetTopGenreQuery, ApiResponse<GetTopGenreResponse>>
+public class GetTopGenreQueryHandler : IRequestHandler<GetTopGenreQuery, ApiResponse<List<GetTopGenreResponse>>>
 
 {
    private ITopGenreService _TopGenreService { get; set;}
@@ -12,7 +12,7 @@ public class GetTopGenreQueryHandler : IRequestHandler<GetTopGenreQuery, ApiResp
    {
     _TopGenreService = TopGenreService;
    }
-    public async Task<ApiResponse<GetTopGenreResponse>> Handle(GetTopGenreQuery request, CancellationToken cancellationToken)
+    public async Task<ApiResponse<List<GetTopGenreResponse>>> Handle(GetTopGenreQuery request, CancellationToken cancellationToken)
     {
        return await _TopGenreService.Get(request.Request);
     }

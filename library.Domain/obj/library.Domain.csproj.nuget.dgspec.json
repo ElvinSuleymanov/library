@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {}
+    "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {
+    "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj",
         "projectName": "library.Domain",
-        "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj",
+        "projectPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj",
         "packagesPath": "C:\\Users\\Elvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Elvin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,5 +5,5 @@ namespace library.Application;
 
 public interface ITopGenreService
 {
-    public Task<ApiResponse<GetTopGenreResponse>> Get(GetTopGenreRequest request);
+    public Task<ApiResponse<List<GetTopGenreResponse>>> Get(GetTopGenreRequest request);
 }

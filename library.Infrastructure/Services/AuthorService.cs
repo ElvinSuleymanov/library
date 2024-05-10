@@ -66,6 +66,7 @@ public class AuthorService : IAuthorService
         descriptor.Issuer = "Elvin";
         descriptor.Audience = "Library";
         descriptor.Subject = identity;
+        descriptor.SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("KhK9vhpATrzgD7mIuRXXQtr1UOkDHZGvtpSpPErkO2txog4KIfQExFtBuVbpC7L")), SecurityAlgorithms.HmacSha256);
        var securityToken =  handler.CreateToken(descriptor);
        string result = handler.WriteToken(securityToken);
        return result;
