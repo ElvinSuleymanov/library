@@ -2731,11 +2731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
       "projectName": "library.Infrastructure",
-      "projectPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Elvin\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Elvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2755,8 +2755,8 @@
             "C:\\Users\\Elvin\\Desktop\\library\\library.Application\\library.Application.csproj": {
               "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Application\\library.Application.csproj"
             },
-            "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {
-              "projectPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj"
+            "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj": {
+              "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj"
             }
           }
         }

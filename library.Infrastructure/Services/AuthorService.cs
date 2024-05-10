@@ -72,4 +72,12 @@ public class AuthorService : IAuthorService
        return result;
     }
 
+    public  async Task<ApiResponse<List<GetAuthorResponse>>> Get(GetAuthorRequest request)
+    {
+      var result = await _context.Authors.Where(a => request.Id != null ? a.Id == request.Id : true)
+      .Select(c => new GetAuthorResponse { Id = c.Id, Books = c.Books.ToList(), Email = c.Email, FullName = c.FullName, BookCount = c.Books.Count() })
+       .OrderByDescending(x => x.Books.Count()).ToListAsync();
+       ;
+       return ApiResponse<List<GetAuthorResponse>>.Success(result);
+    }
 }

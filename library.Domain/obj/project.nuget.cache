@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w7urraqBD2VlBCOdFE+DkA864AvbV27xuxzXt9kvD2M+nM8ht2/yHgki1LXeai/9RkJK4yOAaP90DVNrqnR8rQ==",
+  "dgSpecHash": "61sGlYHu7JyiiFUz6fIfRMfTdJiM3ImBx4tr8hR6ITNfNDPKgGtAlTiyhpDHg2dMcyAZU0Y9yUQ1BCWbh4kbQA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Elvin\\Desktop\\library\\library.Domain\\library.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

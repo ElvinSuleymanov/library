@@ -25,4 +25,8 @@ public class AuthorController
     public async Task<ApiResponse<RegisterAuthorResponse>> Register ([FromForm] RegisterAuthorRequest request) {
         return await _mediator.Send(new RegisterAuthorCommand(request));
     }
+    [HttpGet]
+    public async Task<ApiResponse<List<GetAuthorResponse>>> Get([FromQuery]GetAuthorRequest request) {
+        return await _mediator.Send(new GetAuthorQuery(request));
+    }
 }

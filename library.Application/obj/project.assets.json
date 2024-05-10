@@ -180,8 +180,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj": {
-              "projectPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj"
+            "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj": {
+              "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Models\\library.Models.csproj"
             }
           }
         }
