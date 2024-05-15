@@ -1,5 +1,6 @@
 ﻿using library.Application;
 using library.Application.Core;
+using library.Domain;
 using library.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -16,7 +17,7 @@ public class GenreController
         _mediator = mediator;
     }
     [HttpGet]
-    public async Task<ApiResponse<GetGenreResponse>> Get([FromQuery] GetGenreRequest request) {
+    public async Task<ApiResponse<List<GenreDto>>> Get([FromQuery] GetGenreRequest request) {
         return await _mediator.Send(new GetGenreQuery(request));
     }
     [HttpPost]

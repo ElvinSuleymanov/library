@@ -1,5 +1,6 @@
 ﻿using library.Application;
 using library.Application.Core;
+using library.Domain;
 using library.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +27,7 @@ public class AuthorController
         return await _mediator.Send(new RegisterAuthorCommand(request));
     }
     [HttpGet]
-    public async Task<ApiResponse<List<GetAuthorResponse>>> Get([FromQuery]GetAuthorRequest request) {
+    public async Task<ApiResponse<List<AuthorDto>>> Get([FromQuery]GetAuthorRequest request) {
         return await _mediator.Send(new GetAuthorQuery(request));
     }
 }
