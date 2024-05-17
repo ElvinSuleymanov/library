@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BookAuthor\Update\" />
-    <Folder Include="BookGenre\" />
-    <Folder Include="BookGenre\Create\" />
-    <Folder Include="BookGenre\Delete\" />
-    <Folder Include="BookGenre\Get\" />
-    <Folder Include="BookGenre\Update\" />
     <Folder Include="Book\Create\" />
   </ItemGroup>
 
