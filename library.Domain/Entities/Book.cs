@@ -1,10 +1,9 @@
 ﻿namespace library.Domain;
 
-public class Book:Entity
+
+ public class Book:Entity
 {
-    public  Author Author { get; set; }
-    public int AuthorId { get; set; }
-    public  Genre Genre {get; set;}
-    public int GenreId { get; set;} 
-    public string BookName { get; set; }
+    public string Name { get; set; }
+    public ICollection<BookAuthor> BookAuthors { get; set; }
+    public ICollection<BookGenre> BookGenres { get; set; }  
 }

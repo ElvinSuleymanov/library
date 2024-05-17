@@ -159,11 +159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elvin\\Desktop\\library\\library.Application\\library.Application.csproj",
+      "projectUniqueName": "c:\\Users\\Elvin\\Desktop\\library\\library.Application\\library.Application.csproj",
       "projectName": "library.Application",
-      "projectPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Application\\library.Application.csproj",
+      "projectPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Application\\library.Application.csproj",
       "packagesPath": "C:\\Users\\Elvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elvin\\Desktop\\library\\library.Application\\obj\\",
+      "outputPath": "c:\\Users\\Elvin\\Desktop\\library\\library.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Elvin\\AppData\\Roaming\\NuGet\\NuGet.Config",

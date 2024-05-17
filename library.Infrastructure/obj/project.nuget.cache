@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/OoQMuoEfcDbDgdktA3z6x2fRUf+Ew8kxeJh3tV9o7q5W+r4MWSTK6WmR67CzuPJ8Up5AnLb5xMAbjuZ7a/otg==",
+  "dgSpecHash": "CyVvVtHwar6DRS0zjA4ZpNrUK6ZlHtM/Oc08Xvc7s6ROLq5pdIP2IxCrOqnwYcuwbHBTAOJhd1JpMeiYo2HqEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Elvin\\Desktop\\library\\library.Infrastructure\\library.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\Elvin\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\Elvin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Elvin\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

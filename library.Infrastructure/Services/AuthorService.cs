@@ -64,6 +64,7 @@ public class AuthorService : IAuthorService
         identity.AddClaim(new Claim("FullName", author.FullName));
         SecurityTokenDescriptor descriptor = new ();
         descriptor.Issuer = "Elvin";
+        descriptor.Expires = DateTime.UtcNow.AddDays(1);
         descriptor.Audience = "Library";
         descriptor.Subject = identity;
         descriptor.SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("KhK9vhpATrzgD7mIuRXXQtr1UOkDHZGvtpSpPErkO2txog4KIfQExFtBuVbpC7L")), SecurityAlgorithms.HmacSha256);
@@ -72,12 +73,13 @@ public class AuthorService : IAuthorService
        return result;
     }
 
-    public  async Task<ApiResponse<List<GetAuthorResponse>>> Get(GetAuthorRequest request)
+    public  async Task<ApiResponse<List<AuthorDto>>> Get(GetAuthorRequest request)
     {
       var result = await _context.Authors.Where(a => request.Id != null ? a.Id == request.Id : true)
-      .Select(c => new GetAuthorResponse { Id = c.Id, Books = c.Books.ToList(), Email = c.Email, FullName = c.FullName, BookCount = c.Books.Count() })
-       .OrderByDescending(x => x.Books.Count()).ToListAsync();
-       ;
-       return ApiResponse<List<GetAuthorResponse>>.Success(result);
+      .OrderByDescending(x => x.BookAuthors.Count)
+      .Take((int)request.TopCount)
+      .Select(x => new AuthorDto{Id = x.Id, Email = x.Email, AuthorName = x.FullName, Books = x.BookAuthors.Select(a => new BookDto{Name= a.Book.Name, Id = a.BookId}).ToList()})
+     .ToListAsync();
+       return ApiResponse<List<AuthorDto>>.Success(result);
     }
 }

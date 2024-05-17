@@ -52,7 +52,8 @@ builder.Services.AddAuthentication(opt =>
         ValidIssuer = "Elvin",
         ValidAudience = "Library",
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("KhK9vhpATrzgD7mIuRXXQtr1UOkDHZGvtpSpPErkO2txog4KIfQExFtBuVbpC7L")),
-        ValidateIssuerSigningKey = true
+        ValidateIssuerSigningKey = true,
+        ValidateLifetime = true,
     };
 });
 builder.Services.AddAuthorization();

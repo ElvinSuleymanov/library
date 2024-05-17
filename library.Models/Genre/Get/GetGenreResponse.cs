@@ -4,5 +4,8 @@ namespace library.Models;
 
 public class GetGenreResponse
 {
-     public List<Genre> Genres { get; set;} 
+     public int Id { get; set; }
+     public string Name { get; set; }
+     public int? BookCount {get; set; }
+     public List<GetBookResponse> Books { get; set; }
 }

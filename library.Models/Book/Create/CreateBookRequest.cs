@@ -2,7 +2,7 @@
 
 public class CreateBookRequest
 {
-    public int GenreId { get; set; }
-    public int AuthorId { get; set; }
+    public List<int> GenreIds { get; set; }
+    public List<int> AuthorIds { get; set; }
     public required string BookName {get;set;}   
 }
